@@ -26,6 +26,7 @@
 		57C806DE1B7A689B00E4541A /* xml.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57C806D21B7A66AA00E4541A /* xml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57C806FC1B7B950000E4541A /* xml_search_paths.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 57C806F71B7B93A500E4541A /* xml_search_paths.xcconfig */; };
 		57C806FD1B7B950600E4541A /* xml_search_paths.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 57C806F71B7B93A500E4541A /* xml_search_paths.xcconfig */; };
+		57C807171B7BA2D500E4541A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 57C807161B7BA2D500E4541A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		57C806D21B7A66AA00E4541A /* xml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C806DA1B7A66EB00E4541A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
 		57C806F71B7B93A500E4541A /* xml_search_paths.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = xml_search_paths.xcconfig; sourceTree = "<group>"; };
+		57C807161B7BA2D500E4541A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		577F128F1B7A44D3005B54C8 = {
 			isa = PBXGroup;
 			children = (
+				57C807161B7BA2D500E4541A /* README.md */,
 				577F129B1B7A44D3005B54C8 /* xml */,
 				577F12AD1B7A469C005B54C8 /* ios-linktest */,
 				57C806B31B7A60FC00E4541A /* osx-linktest */,
@@ -419,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C807171B7BA2D500E4541A /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
