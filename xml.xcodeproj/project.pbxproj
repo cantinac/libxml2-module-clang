@@ -7,26 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		574BA7B31B88C12700CEFBD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 574BA7B21B88C12700CEFBD8 /* Default-568h@2x.png */; };
 		577F12B01B7A469C005B54C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 577F12AF1B7A469C005B54C8 /* main.m */; };
 		577F12B31B7A469C005B54C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 577F12B21B7A469C005B54C8 /* AppDelegate.m */; };
 		577F12B61B7A469C005B54C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577F12B51B7A469C005B54C8 /* ViewController.m */; };
 		577F12B91B7A469C005B54C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577F12B71B7A469C005B54C8 /* Main.storyboard */; };
 		577F12BB1B7A469C005B54C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577F12BA1B7A469C005B54C8 /* Assets.xcassets */; };
-		577F12BE1B7A469C005B54C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577F12BC1B7A469C005B54C8 /* LaunchScreen.storyboard */; };
 		57C8069B1B7A5FF400E4541A /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577F12991B7A44D3005B54C8 /* xml.framework */; };
 		57C8069C1B7A5FF400E4541A /* xml.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 577F12991B7A44D3005B54C8 /* xml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		57C806A11B7A601A00E4541A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C806A01B7A601A00E4541A /* libxml2.tbd */; };
 		57C806B61B7A60FC00E4541A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C806B51B7A60FC00E4541A /* AppDelegate.m */; };
 		57C806B91B7A60FC00E4541A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C806B81B7A60FC00E4541A /* main.m */; };
 		57C806BC1B7A60FC00E4541A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C806BB1B7A60FC00E4541A /* ViewController.m */; };
 		57C806BE1B7A60FC00E4541A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C806BD1B7A60FC00E4541A /* Assets.xcassets */; };
 		57C806C11B7A60FC00E4541A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C806BF1B7A60FC00E4541A /* Main.storyboard */; };
-		57C806DB1B7A66EB00E4541A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C806DA1B7A66EB00E4541A /* libxml2.tbd */; };
 		57C806DD1B7A689B00E4541A /* xml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C806D21B7A66AA00E4541A /* xml.framework */; };
 		57C806DE1B7A689B00E4541A /* xml.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57C806D21B7A66AA00E4541A /* xml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57C806FC1B7B950000E4541A /* xml_search_paths.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 57C806F71B7B93A500E4541A /* xml_search_paths.xcconfig */; };
 		57C806FD1B7B950600E4541A /* xml_search_paths.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 57C806F71B7B93A500E4541A /* xml_search_paths.xcconfig */; };
-		57C807171B7BA2D500E4541A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 57C807161B7BA2D500E4541A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +69,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		574BA7B21B88C12700CEFBD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		577F12991B7A44D3005B54C8 /* xml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		577F129E1B7A44D3005B54C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		577F12A41B7A451A005B54C8 /* xml.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = xml.xcconfig; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 		577F12B51B7A469C005B54C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		577F12B81B7A469C005B54C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		577F12BA1B7A469C005B54C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		577F12BD1B7A469C005B54C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		577F12BF1B7A469D005B54C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57C806A01B7A601A00E4541A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		57C806B21B7A60FC00E4541A /* osx-linktest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "osx-linktest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C806A11B7A601A00E4541A /* libxml2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +129,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C806DB1B7A66EB00E4541A /* libxml2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +138,7 @@
 		577F128F1B7A44D3005B54C8 = {
 			isa = PBXGroup;
 			children = (
+				574BA7B21B88C12700CEFBD8 /* Default-568h@2x.png */,
 				57C807161B7BA2D500E4541A /* README.md */,
 				577F129B1B7A44D3005B54C8 /* xml */,
 				577F12AD1B7A469C005B54C8 /* ios-linktest */,
@@ -186,7 +182,6 @@
 				577F12B51B7A469C005B54C8 /* ViewController.m */,
 				577F12B71B7A469C005B54C8 /* Main.storyboard */,
 				577F12BA1B7A469C005B54C8 /* Assets.xcassets */,
-				577F12BC1B7A469C005B54C8 /* LaunchScreen.storyboard */,
 				577F12BF1B7A469D005B54C8 /* Info.plist */,
 				577F12AE1B7A469C005B54C8 /* Supporting Files */,
 			);
@@ -392,9 +387,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577F12BE1B7A469C005B54C8 /* LaunchScreen.storyboard in Resources */,
 				577F12BB1B7A469C005B54C8 /* Assets.xcassets in Resources */,
 				577F12B91B7A469C005B54C8 /* Main.storyboard in Resources */,
+				574BA7B31B88C12700CEFBD8 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +417,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C807171B7BA2D500E4541A /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,14 +469,6 @@
 				577F12B81B7A469C005B54C8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		577F12BC1B7A469C005B54C8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				577F12BD1B7A469C005B54C8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		57C806BF1B7A60FC00E4541A /* Main.storyboard */ = {
@@ -601,6 +587,7 @@
 				INFOPLIST_FILE = xml/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.xml;
 				PRODUCT_NAME = xml;
 				SKIP_INSTALL = YES;
@@ -618,6 +605,7 @@
 				INFOPLIST_FILE = xml/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.xml;
 				PRODUCT_NAME = xml;
 				SKIP_INSTALL = YES;
@@ -690,6 +678,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.xml-macosx";
 				PRODUCT_NAME = xml;
 				SDKROOT = macosx;
@@ -711,6 +700,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.xml-macosx";
 				PRODUCT_NAME = xml;
 				SDKROOT = macosx;
