@@ -1,9 +1,9 @@
 
 module xml [system] {
     
-    umbrella "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libxml2"
+    umbrella "/Applications/Xcode7-GMseed.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libxml2"
     
-    exclude header "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libxml2/libxml/DOCBparser.h"
+    exclude header "/Applications/Xcode7-GMseed.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libxml2/libxml/DOCBparser.h"
     
     link "xml2"
     
